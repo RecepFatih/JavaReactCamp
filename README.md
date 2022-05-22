@@ -1,4 +1,4 @@
-# JavaReactCamp <br/>
+# Java React Camp <br/>
 There are the projects I created during my java course. <br/>
 ### **Topics** <br/>
 
