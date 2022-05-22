@@ -16,9 +16,5 @@ public class InstructorManeger extends BaseManager{
 				+ "\nInstructor Name: " + instructor.getFirstName() + instructor.getLastName());
 		
 	}
-	
-	public void aba() {
-		
-	}
 
 }
