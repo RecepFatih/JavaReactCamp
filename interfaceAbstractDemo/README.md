@@ -9,3 +9,5 @@
 - Starbucks wants to perform e-government verification when registering its customers in its database.
 Nero doesn't want to. (The e-government system is an application used in Turkey. We can verify with name, surname, national identity and year of birth.) 
 [e-government](https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL)
+
+*All written codes have been tried to be made in accordance with SOLID principles.*
