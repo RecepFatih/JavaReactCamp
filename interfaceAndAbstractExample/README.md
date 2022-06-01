@@ -9,3 +9,5 @@ We want to verify the accuracy of customer information using e-government system
 - Simulate the sales environment where the game can be sold. (The sales made must be associated with the player.) <br/>
 - Simulate new campaign entry, deletion and updating of the campaign. <br/>
 - Simulate campaign integration in sales. <br/>
+
+*All written codes have been tried to be made in accordance with SOLID principles.*
