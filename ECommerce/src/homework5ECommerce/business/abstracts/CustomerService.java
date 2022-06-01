@@ -9,4 +9,5 @@ public interface CustomerService {
 	void memberDelete(Customer customer);
 	void memberUpdate(Customer customer);
 	List<Customer> getAll();
+	void memberAddWithGoogle(String email, String passport);
 }

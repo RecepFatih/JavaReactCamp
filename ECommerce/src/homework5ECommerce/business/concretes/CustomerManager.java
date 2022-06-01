@@ -5,6 +5,7 @@ import java.util.List;
 import homework5ECommerce.business.abstracts.CustomerService;
 import homework5ECommerce.core.abstracts.EmailService;
 import homework5ECommerce.core.abstracts.LoggerService;
+import homework5ECommerce.core.abstracts.RegisterService;
 import homework5ECommerce.core.concretes.EmailLogger;
 import homework5ECommerce.dataAccess.abstracts.CustomerDao;
 import homework5ECommerce.entities.concretes.Customer;
@@ -14,7 +15,17 @@ public class CustomerManager implements CustomerService{
 	private CustomerDao customerDao;
 	private EmailService emailService;
 	private LoggerService loggerService;
+	private RegisterService registerService;
 	
+	public CustomerManager() {
+		
+	}
+	
+	public CustomerManager(RegisterService registerService,
+			LoggerService loggerService) {
+		this.registerService = registerService;
+		this.loggerService = loggerService;
+	}
 	
 	public CustomerManager(CustomerDao customerDao, EmailService emailService,
 			LoggerService loggerService) {
@@ -22,6 +33,12 @@ public class CustomerManager implements CustomerService{
 		this.customerDao = customerDao;
 		this.emailService = emailService;
 		this.loggerService = loggerService;
+	}
+	
+	public void memberAddWithGoogle(String email, String password) {
+		this.loggerService.verify(email);
+		this.registerService.memberAdd(email, password);
+		
 	}
 
 	@Override
@@ -47,6 +64,7 @@ public class CustomerManager implements CustomerService{
 		
 		this.loggerService.verify(customer.getFirstName());
 		this.customerDao.add(customer);
+		
 		
 		}
 		
