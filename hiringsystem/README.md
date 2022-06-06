@@ -5,7 +5,7 @@ In addition, spring boot, swagger and mernis person verification systems were us
 Mernis verification system is a system used for Turkey. 
 A person's year of birth, national identity number, first name and last name are given. <br/> With this information, person verification can be done. 
 ([Mernis verification system](https://www.kodlama.io/](https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL))) <br/>
-Database created with PostgreSQL.* Updates will be made over time. After finishing the back-end part, it will be used with React for front-end. <br/>
+Database created with PostgreSQL.* <br/> <br/> Updates will be made over time. After finishing the back-end part, it will be used with React for front-end. <br/>
 
 ### Objectives of the project; <br/>
 #### Req 1: Job Seekers must be able to register in the system.
