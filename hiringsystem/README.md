@@ -15,14 +15,14 @@ Database created with PostgreSQL.* <br/> <br/> Updates will be made over time. A
 - After the Mernis verification, the it is registered at the system.
 - If the validation is not valid, the user is notified.
 - If there is a previously registered e-mail or national identity number, registration is not done. The user is informed.
-- Kaydın yapılması için e-posta doğrulaması gerekir. (There really is no need to send an email.) <br/>
+- Email verification is required for registration. (There really is no need to send an email.) <br/>
 
 #### Req 2: Employers must be able to register in the system.
 ##### Accept conditions:
 - During registration, the user is asked for company name, website, e-mail with the same domain as the website, phone, password, password repeat information. The purpose here is to prevent non-companies from joining the system.
 - All fields are required. The user is informed.
 - Company records are verified in two ways. Email verification is required for registration to take place. Approval from HRMS staff is required.
-- Daha önce kayıtlı bir e-posta var ise kayıt yapılmaz. Kullanıcı bilgilendirilir. <br/>
+- If there is a previously registered e-mail, registration is not done. The user is informed. <br/>
 #### Req 3: General job position names can be added to the system. For example Software Developer, Software Architect.
 ##### Accept conditions:
 - These positions cannot be repeated. The user is informed. <br/>
