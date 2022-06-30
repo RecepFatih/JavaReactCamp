@@ -36,4 +36,4 @@ Database created with PostgreSQL.* <br/> <br/> Updates will be made over time. A
 *Swagger view:* <br/>
 ![ERD Diagram](https://github.com/RecepFatih/JavaReactCamp/blob/main/hiringsystem-backend/swagger.png)
 
-*All written codes have been tried to be made in accordance with SOLID principles.*
+### *All written codes have been tried to be made in accordance with SOLID principles.*
