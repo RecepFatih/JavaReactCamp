@@ -26,14 +26,50 @@ Database created with PostgreSQL.* <br/> <br/> Updates will be made over time. A
 #### Req 3: General job position names can be added to the system. For example Software Developer, Software Architect.
 ##### Accept conditions:
 - These positions cannot be repeated. The user is informed. <br/>
+
 #### Req 4: Employers can be listed. (Whole list only) <br/>
+
 #### Req 5: Job seekers can be listed. (Whole list only) <br/>
+
 #### Req 6: Job positions can be listed. (Whole list only) <br/>
 
-*ERD diagram of the database created with PostgreSQL:* <br/>
+#### Req 7:Employers can add job postings to the system. <br/>
+
+##### *In the job posting form;* <br/>
+
+- General job position can be selected from the dropdown list. (For example, Java Developer) (Required) <br/>
+
+- Job description entry should be possible. (Required) <br/>
+
+- City information can be selected from the drop-down list. (Required) <br/>
+
+- It should be possible to enter min-max for the salary scale. (Optional) <br/>
+
+- It should be possible to enter the number of open positions. (Required) <br/>
+
+- The application deadline must be entered.
+
+#### Req 8: All active job postings in the system can be listed. <br/>
+
+- The list must contain information about the company name, general job position, number of open positions, publication date, and deadline. 
+*(A DTO class has been created. Then, the requested information was joined with a query. If you want more information, you can check [this](https://roytuts.com/spring-boot-data-jpa-left-right-inner-and-cross-join-examples/) page.)* <br/>
+
+#### Req 9: All active job postings in the system can be listed by date. <br/>
+
+- The list must contain information about the company name, general job position, number of open positions, publication date, and deadline. <br/>
+
+#### Req 10: All active job postings of a company can be listed in the system. <br/>
+
+- The list must contain information about the company name, general job position, number of open positions, publication date, and deadline. <br/>
+
+#### Req 11: Employers can close a posting in the system. (as passive) <br/>
+ 
+
+
+*ERD diagram of the database created with PostgreSQL:* <br/> <br/>
 ![ERD Diagram](https://github.com/RecepFatih/JavaReactCamp/blob/main/hiringsystem-backend/ERDdiagram.png)
 
-*Swagger view:* <br/>
-![ERD Diagram](https://github.com/RecepFatih/JavaReactCamp/blob/main/hiringsystem-backend/swagger.png)
+*Swagger view:* <br/> <br/>
+![ERD Diagram](https://github.com/RecepFatih/JavaReactCamp/blob/main/hiringsystem-backend/swagger.png) <br/> <br/>
 
 ### *All written codes have been tried to be made in accordance with SOLID principles.*
