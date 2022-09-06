@@ -1,6 +1,5 @@
 package hrms.hiringsystem.business.abstracts;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import hrms.hiringsystem.core.utilities.results.DataResult;

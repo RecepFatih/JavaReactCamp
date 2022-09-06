@@ -4,6 +4,9 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
+
+import com.sun.istack.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,9 +23,13 @@ import lombok.NoArgsConstructor;
 
 public class EmployeeUser extends User{
 	
-	@Column(name = "first_name", nullable = false)
+	@NotNull
+	@NotBlank
+	@Column(name = "first_name")
 	private String firstName;
 	
+	@NotNull
+	@NotBlank
 	@Column(name = "last_name", nullable = false)
 	private String lastName;
 	

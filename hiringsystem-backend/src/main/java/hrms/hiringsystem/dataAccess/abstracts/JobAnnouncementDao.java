@@ -1,6 +1,5 @@
 package hrms.hiringsystem.dataAccess.abstracts;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.data.domain.Sort;

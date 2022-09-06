@@ -21,9 +21,7 @@ import hrms.hiringsystem.core.utilities.validations.PasswordValidator;
 import hrms.hiringsystem.core.utilities.verification.email.abstracts.EmailService;
 import hrms.hiringsystem.core.utilities.verification.mernis.abstracts.MernisService;
 import hrms.hiringsystem.dataAccess.abstracts.CandidateUserDao;
-import hrms.hiringsystem.dataAccess.abstracts.UserDao;
 import hrms.hiringsystem.entities.concretes.CandidateUser;
-import hrms.hiringsystem.entities.concretes.JobPosition;
 import hrms.hiringsystem.entities.concretes.User;
 
 @Service
