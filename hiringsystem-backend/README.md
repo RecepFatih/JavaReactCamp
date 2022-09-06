@@ -67,7 +67,7 @@ Database created with PostgreSQL.* <br/> <br/> Updates will be made over time. A
 
 
 *ERD diagram of the database created with PostgreSQL:* <br/> <br/>
-![ERD Diagram](https://github.com/RecepFatih/JavaReactCamp/blob/main/hiringsystem-backend/ERDdiagram.png)
+![ERD Diagram](https://github.com/RecepFatih/JavaReactCamp/blob/main/hiringsystem-backend/ERDdiagram.png) <br/>
 
 *Swagger view:* <br/> <br/>
 ![ERD Diagram](https://github.com/RecepFatih/JavaReactCamp/blob/main/hiringsystem-backend/swagger.png) <br/> <br/>
